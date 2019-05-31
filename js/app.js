@@ -13,23 +13,18 @@ var xhr =  new XMLHttpRequest();
 var outputBox = document.querySelector(".outputBox");
 
 xhr.onload = function(){
-    console.log(this.response)
+    //Creating a div element to place all our response data
+    var container = document.createElement('div'); 
+    container.innerHTML = parseTheBody(this.response)
 
-    var container = document.createElement('div');
-    
-    var finalData = parseTheBody(this.response)
-    
-    container.innerHTML = finalData;
-    
-
-    
-
-    outputBox.innerHTML = container.querySelector('.outputBox').innerHTML
+    //Replacing the response data to our output
+    outputBox.innerHTML = container.querySelector('.outputBox').innerHTML   
 }
 
 function linkClicked(e){
     //preventing the link to go to the next page
     e.preventDefault();
+
     //Fetching the url to navigate to
     var url = e.srcElement.getAttribute('href');
     
@@ -38,9 +33,7 @@ function linkClicked(e){
 }
 
 
+//Parses the html element inside body tag without the scripts
 function parseTheBody(response){
-    var splittedData = response.split("<body>")
-    var innerData = splittedData[1].split("</body>")[0];
-    var finalData = innerData.split('<script')[0]
-    return finalData;
+    return response.split("<body>")[1].split("</body>")[0].split('<script')[0];
 }
