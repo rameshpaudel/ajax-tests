@@ -42,7 +42,7 @@ function generateUIForJSON(data){
 function mapJSONToHtml(value){
     outputBox.innerHTML += generateUIForJSON(value)
 }
-
+//Return the response as json format
 function responseToJSON(response){
     //We return the type of data we want to return in correct format
     if (response.ok) {
@@ -52,7 +52,7 @@ function responseToJSON(response){
     throw Error("The data was not in json format")
 }
 
-
+//Event listeners for the nav anchor tags
 function linkClicked(e) {
     //preventing the link to go to the next page
     e.preventDefault();
@@ -70,13 +70,12 @@ for (var i = 0; i < pageLinks.length; i++) {
     pageLinks[i].addEventListener('click', linkClicked)
 }
 
-
-
-
-
-loadJSON.addEventListener('click', ()=>{
+//Load the json data and output json html
+function loadData(){
     fetch('./data.json')
         .then(responseToJSON)
         .then(data => data.map(mapJSONToHtml))
         .catch(error => console.error(error));
-})
+}
+
+loadJSON.addEventListener('click', loadData)
