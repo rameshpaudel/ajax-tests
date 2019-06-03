@@ -1,0 +1,217 @@
+[
+  {
+    "id": "5cf4df5246a232030a0a111c",
+    "isActive": false,
+    "balance": "$2,651.89",
+    "picture": "http://placehold.it/200x200",
+    "age": 39,
+    "eyeColor": "brown",
+    "name": "Rush Justice",
+    "gender": "male",
+    "company": "RADIANTIX",
+    "email": "rushjustice@radiantix.com",
+    "phone": "+1 (989) 407-3739",
+    "address": "630 Rockwell Place, Calvary, Oklahoma, 3255",
+    "about": "Adipisicing ut aliqua ad nostrud fugiat aliquip elit. Esse sunt ex ipsum commodo laboris consequat ullamco cillum pariatur. Amet deserunt qui ex sit tempor incididunt aliqua irure culpa nostrud esse. Esse ex culpa et est proident labore sint.\r\n",
+    "registered": "2015-06-25T12:26:25 -06:-45",
+    "latitude": 30.099582,
+    "longitude": 172.99446,
+    "tags": [
+      "fugiat",
+      "exercitation",
+      "et",
+      "occaecat",
+      "ea",
+      "quis",
+      "deserunt"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Alford Mccoy"
+      },
+      {
+        "id": 1,
+        "name": "Summer Pacheco"
+      },
+      {
+        "id": 2,
+        "name": "Sherrie Holland"
+      }
+    ],
+    "greeting": "Hello, Rush Justice! You have 4 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "id": "5cf4df52d5634d975d01ce75",
+    "isActive": false,
+    "balance": "$3,633.03",
+    "picture": "http://placehold.it/200x200",
+    "age": 34,
+    "eyeColor": "green",
+    "name": "Larson Sosa",
+    "gender": "male",
+    "company": "TETRATREX",
+    "email": "larsonsosa@tetratrex.com",
+    "phone": "+1 (846) 514-3355",
+    "address": "344 Laurel Avenue, Foxworth, South Carolina, 9910",
+    "about": "Veniam dolore magna culpa amet sunt exercitation reprehenderit labore ad incididunt ea sint. Commodo sint veniam ex aute ipsum enim dolor. Ea nisi aliquip fugiat eu pariatur proident et duis adipisicing proident.\r\n",
+    "registered": "2018-09-19T04:59:54 -06:-45",
+    "latitude": -82.54275,
+    "longitude": 122.25247,
+    "tags": [
+      "Lorem",
+      "qui",
+      "irure",
+      "adipisicing",
+      "labore",
+      "quis",
+      "veniam"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Lindsay Floyd"
+      },
+      {
+        "id": 1,
+        "name": "Woodard Bradshaw"
+      },
+      {
+        "id": 2,
+        "name": "Sharron Faulkner"
+      }
+    ],
+    "greeting": "Hello, Larson Sosa! You have 7 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "id": "5cf4df52dcdce61c14d78b53",
+    "isActive": true,
+    "balance": "$3,230.74",
+    "picture": "http://placehold.it/200x200",
+    "age": 36,
+    "eyeColor": "brown",
+    "name": "Noreen Oconnor",
+    "gender": "female",
+    "company": "IMMUNICS",
+    "email": "noreenoconnor@immunics.com",
+    "phone": "+1 (843) 578-3867",
+    "address": "941 Jamaica Avenue, Lynn, Oregon, 685",
+    "about": "Minim amet occaecat et qui aliquip proident ea dolore aliquip nulla. Consequat cillum proident cupidatat exercitation culpa irure cupidatat ea in ipsum duis ea ipsum quis. Ullamco sit occaecat qui cupidatat id aliqua consequat deserunt. Labore reprehenderit ullamco nostrud laboris consequat aliqua officia ex enim laboris laboris velit aute consequat.\r\n",
+    "registered": "2019-01-08T11:41:53 -06:-45",
+    "latitude": 40.512138,
+    "longitude": -106.486601,
+    "tags": [
+      "esse",
+      "officia",
+      "aliquip",
+      "proident",
+      "ea",
+      "do",
+      "est"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Marion Good"
+      },
+      {
+        "id": 1,
+        "name": "Marie Leon"
+      },
+      {
+        "id": 2,
+        "name": "Wright Horne"
+      }
+    ],
+    "greeting": "Hello, Noreen Oconnor! You have 9 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "id": "5cf4df52e98b47941d7badba",
+    "isActive": true,
+    "balance": "$1,805.06",
+    "picture": "http://placehold.it/200x200",
+    "age": 37,
+    "eyeColor": "blue",
+    "name": "Craft Sullivan",
+    "gender": "male",
+    "company": "EXODOC",
+    "email": "craftsullivan@exodoc.com",
+    "phone": "+1 (953) 563-2736",
+    "address": "515 Kathleen Court, Orovada, New Hampshire, 1454",
+    "about": "Quis minim minim veniam magna laboris. Ullamco anim nisi consequat culpa et in elit non. Ad sint ad incididunt ut minim in anim officia consectetur. Enim sit fugiat Lorem non reprehenderit. Duis mollit officia dolore occaecat voluptate cupidatat. Reprehenderit officia et est enim.\r\n",
+    "registered": "2014-05-29T11:44:21 -06:-45",
+    "latitude": 4.261403,
+    "longitude": 156.822817,
+    "tags": [
+      "nostrud",
+      "est",
+      "laborum",
+      "ut",
+      "irure",
+      "duis",
+      "dolore"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Lester Roach"
+      },
+      {
+        "id": 1,
+        "name": "Abigail Coleman"
+      },
+      {
+        "id": 2,
+        "name": "Maryanne Boyer"
+      }
+    ],
+    "greeting": "Hello, Craft Sullivan! You have 9 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "id": "5cf4df528f2fd44adea639cf",
+    "isActive": false,
+    "balance": "$1,606.07",
+    "picture": "http://placehold.it/200x200",
+    "age": 29,
+    "eyeColor": "green",
+    "name": "Rene Lester",
+    "gender": "female",
+    "company": "OLUCORE",
+    "email": "renelester@olucore.com",
+    "phone": "+1 (938) 455-3805",
+    "address": "835 Beverley Road, Deseret, Illinois, 9645",
+    "about": "Consequat aliquip officia voluptate Lorem non minim quis voluptate laborum occaecat ut minim excepteur sit. Esse do laboris reprehenderit Lorem aute et nulla. Dolore proident ex ea voluptate ut anim et labore nulla amet elit. Velit ad laborum occaecat elit amet irure nostrud magna in. Tempor sint mollit cupidatat do fugiat veniam nisi elit id adipisicing cillum.\r\n",
+    "registered": "2014-02-04T04:57:58 -06:-45",
+    "latitude": 3.047067,
+    "longitude": -53.459694,
+    "tags": [
+      "ea",
+      "labore",
+      "proident",
+      "labore",
+      "aliquip",
+      "elit",
+      "do"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Hensley Estrada"
+      },
+      {
+        "id": 1,
+        "name": "Kristin Williamson"
+      },
+      {
+        "id": 2,
+        "name": "Stacie Barrera"
+      }
+    ],
+    "greeting": "Hello, Rene Lester! You have 10 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+]
