@@ -57,7 +57,6 @@ function linkClicked(e) {
     //preventing the link to go to the next page
     e.preventDefault();
     var url = e.srcElement.getAttribute('href');
-
     fetch(url)
         .then(getResponseAsText)
         .then(getHtmlFromResponse)
@@ -65,10 +64,16 @@ function linkClicked(e) {
         .catch(error => console.error(error));
 }
 
+
+
 for (var i = 0; i < pageLinks.length; i++) {
     //Selecting each links and attaching the event listener
     pageLinks[i].addEventListener('click', linkClicked)
 }
+
+
+
+
 
 //Load the json data and output json html
 function loadData(){
@@ -79,3 +84,4 @@ function loadData(){
 }
 
 loadJSON.addEventListener('click', loadData)
+

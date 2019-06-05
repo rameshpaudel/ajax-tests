@@ -22,7 +22,7 @@ xhr.onprogress = function(e) {
         console.log('Loaded Size', e.loaded);
         console.log('Total Size', e.total);
 
-        indicator.style.width = 100 - loadingPercentage + '%';
+        indicator.style.width = loadingPercentage + '%';
         indicator.style.height = 10+'px';
         indicator.style.opacity = loadingPercentage / 100;
         
